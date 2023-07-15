@@ -1,33 +1,161 @@
+import 'package:chatapp/chat_page.dart';
+import 'package:chatapp/services/auth_service.dart';
+import 'package:chatapp/utils/textfield_styles.dart';
+import 'package:chatapp/widgets/login_text_field.dart';
+import 'package:chatapp/widgets/spaces.dart';
 import 'package:flutter/material.dart';
+import 'package:provider/provider.dart';
+import 'package:social_media_buttons/social_media_buttons.dart';
+import 'package:url_launcher/url_launcher.dart';
 
 class LoginPage extends StatelessWidget {
-  const LoginPage({super.key});
+  LoginPage({super.key});
+
+  final _formkey = GlobalKey<FormState>();
+  final String _main_url = 'https://google.com';
+
+  Future<void> loginUser(BuildContext context) async {
+    if (_formkey.currentState != null && _formkey.currentState!.validate()) {
+      print(userNameController.text);
+      print(passwordController.text);
+
+      await context.read<AuthService>().loginUser(userNameController.text);
+
+      Navigator.pushReplacementNamed(
+          context,
+          '/chat',
+          arguments: '${userNameController.text}'
+      );
+
+      print('login successful');
+    } else {
+      print('not successful');
+    }
+  }
+
+  final userNameController = TextEditingController();
+  final passwordController = TextEditingController();
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(),
-      drawer: Drawer(),
-      floatingActionButton: FloatingActionButton(
-        onPressed: () {
-          print("Button Pressed");
-        },
-      ),
-      // body: Text(
-      //     'Let\'s sign you in',
-      //     style: TextStyle(
-      //         fontSize: 30,
-      //         color: Colors.brown,
-      //         fontWeight: FontWeight.bold,
-      //         letterSpacing: 0.5
-      //     ),
-      // ),
-      body: Text('Welcome back! \n You\'ve been missed',
-            style: TextStyle(
-            fontWeight: FontWeight.bold,
-            fontSize: 20,
-            color: Colors.blueGrey
-      ),
+      backgroundColor: Colors.white,
+      body: Center(
+        child: SingleChildScrollView(
+          child: Padding(
+            padding: const EdgeInsets.all(24.0),
+            child: Column(
+              mainAxisAlignment: MainAxisAlignment.center,
+              crossAxisAlignment: CrossAxisAlignment.stretch,
+              children: [
+                Text(
+                  'Let\'s sign you in',
+                  textAlign: TextAlign.center,
+                  style: TextStyle(
+                      fontSize: 30,
+                      color: Colors.black,
+                      fontWeight: FontWeight.bold,
+                      letterSpacing: 0.5),
+                ),
+                Text(
+                  'Welcome back! \n You\'ve been missed',
+                  textAlign: TextAlign.center,
+                  style: TextStyle(
+                      fontWeight: FontWeight.w500,
+                      fontSize: 20,
+                      color: Colors.blueGrey),
+                ),
+                verticalSpacing(24),
+                Container(
+                  height: 200,
+                  width: MediaQuery.of(context).size.width,
+                  decoration: BoxDecoration(
+                      image: DecorationImage(
+                        fit: BoxFit.fitHeight,
+                          image: AssetImage('assets/login.png')
+                      ),
+                      borderRadius: BorderRadius.circular(24)
+                  ),
+                ),
+                verticalSpacing(24),
+                Form(
+                  key: _formkey,
+                  child: Column(
+                    children: [
+                      LoginTextField(
+                        hintText: "Enter your username",
+                        validator: (value) {
+                          if (value != null &&
+                              value.isNotEmpty &&
+                              value.length < 5) {
+                            return "Your username should be more than 5 characters";
+                          } else if (value != null && value.isEmpty) {
+                            return "Please type your username";
+                          }
+                          return null;
+                        },
+                        controller: userNameController,
+                      ),
+                      verticalSpacing(24),
+                      LoginTextField(
+                        hasAsterisks: true,
+                        hintText: "Enter your password",
+                        controller: passwordController,
+                      ),
+                      SizedBox(
+                        height: 24,
+                      ),
+                    ],
+                  ),
+                ),
+                Container(
+                  height: 40,
+                  child: ElevatedButton(
+                      onPressed: () async {
+                        await loginUser(context);
+                      },
+                      child: Text(
+                        'Login',
+                        style: TextStyle(
+                          fontSize: 24,
+                          fontWeight: FontWeight.w300,
+                        ),
+                      )
+                  ),
+                ),
+                verticalSpacing(24),
+                GestureDetector(
+                  onTap: () async {
+                    // todo: Navigate to browser
+                    print('Link clicked!');
+                    if (!await launchUrl(_main_url as Uri)) {
+                    throw Exception('Could not launch this!');
+                    }
+                  },
+                  child: Column(
+                    children: [
+                      Text('Find us on'),
+                      Text(_main_url),
+                    ],
+                  ),
+                ),
+                Row(
+                  mainAxisAlignment: MainAxisAlignment.center,
+                  children: [
+                    SocialMediaButton.twitter(
+                        size: 20,
+                        color: Colors.blue,
+                        url: "https://twitter.com/",
+                    ),
+                    SocialMediaButton.linkedin(
+                      url: "https://linkedin.com/in/angad-singh",
+                    ),
+                  ],
+                )
+              ],
+            ),
+          ),
+        ),
       ),
     );
   }

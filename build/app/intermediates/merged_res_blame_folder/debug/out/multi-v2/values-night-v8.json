@@ -4,7 +4,7 @@
             "outputFile": "com.cdinv.chatapp-mergeDebugResources-9:/values-night-v8/values-night-v8.xml",
             "map": [
                 {
-                    "source": "/Users/mac/StudioProjects/chatapp/android/app/src/main/res/values-night/styles.xml",
+                    "source": "/Users/mac/Downloads/Flutter_projects/chat_app/android/app/src/main/res/values-night/styles.xml",
                     "from": {
                         "startLines": "3,14",
                         "startColumns": "4,4",
