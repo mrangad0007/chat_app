@@ -12,6 +12,7 @@ music
 verticalText
 PICTURES
 android.util.LongArray
+FlutterSharedPreferences
 getUncaughtExceptionPreHandler
 onBackPressed
 adapter
@@ -32,8 +33,8 @@ kotlinx.coroutines.DefaultExecutor
 TextInputClient.updateEditingStateWit...
 registerWith
 SystemSoundType.alert
-REDUCE_MOTION
 kotlin.internal.JRE7PlatformImplement...
+REDUCE_MOTION
 DECREASE
 $splitPairFilters
 PORTRAIT_DOWN
@@ -132,6 +133,7 @@ SplitPairRule
 executor
 IS_TEXT_FIELD
 kotlinx.coroutines.internal.StackTrac...
+dev.flutter.pigeon.SharedPreferencesA...
 write
 TextInputType.none
 onStop
@@ -181,8 +183,8 @@ dev.flutter.pigeon.UrlLauncherApi.can...
 java.util.concurrent.ForkJoinPool
 LIGHT_IMPACT
 DESTROYED
-selectionExtent
 New
+selectionExtent
 SystemChrome.setEnabledSystemUIOverlays
 MouseCursorChannel
 ATOMIC
@@ -195,9 +197,9 @@ HapticFeedback.vibrate
 repeatCount
 noDrop
 $activityFilters
+void
 flutter/keydata
 read
-void
 memoryPressure
 flutter/restoration
 touch
@@ -256,6 +258,7 @@ android.widget.HorizontalScrollView
 password
 kotlinx.coroutines.scheduler.keep.ali...
 INCREASE
+VGhpcyBpcyB0aGUgcHJlZml4IGZvciBEb3VibGUu
 NO_TARGET
 jar
 state
@@ -273,9 +276,10 @@ POSTURE_FLAT
 kotlin.collections.ListIterator
 oemFeature.bounds
 dev.flutter.pigeon.PathProviderApi.ge...
+dev.flutter.pigeon.SharedPreferencesA...
 CUSTOM_ACTION
-TextInputClient.updateEditingStateWit...
 delimiters
+TextInputClient.updateEditingStateWit...
 PROTECTED
 cached_engine_id
 STANDARD
@@ -328,8 +332,8 @@ DartExecutor
 fields
 getDescriptor
 keymap
-FlutterLoader
 string
+FlutterLoader
 deltaStart
 onRequestPermissionsResult
 kotlin.coroutines.jvm.internal.BaseCo...
@@ -346,6 +350,7 @@ SEALED
 CREATED
 textScaleFactor
 namePrefix
+SharedPreferencesPlugin
 io.flutter.embedding.android.NormalTheme
 Dispatchers.Main
 FlutterSurfaceView
@@ -358,8 +363,8 @@ primitiveFqNames.values
 enableSuggestions
 PASTE
 android.intent.action.VIEW
-IS_MULTILINE
 short
+IS_MULTILINE
 middleName
 window
 personFamilyName
@@ -380,8 +385,8 @@ hybridFallback
 oemFeature
 put
 getBounds
-TextInputType.text
 EmptyCoroutineContext
+TextInputType.text
 ACTION_ARGUMENT_SELECTION_END_INT
 CPU_ACQUIRED
 embeddingCallback
@@ -407,6 +412,7 @@ viewFocused
 HEAVY_IMPACT
 light
 kotlin.Short
+dev.flutter.pigeon.SharedPreferencesA...
 bounds
 primaryActivityName.packageName
 PUBLIC
@@ -447,8 +453,8 @@ birthDateDay
 .immediate
 TextInputAction.unspecified
 libflutter.so
-width
 char
+width
 PORTRAIT_UP
 IMMERSIVE
 kotlinx.coroutines.fast.service.loader
@@ -477,6 +483,7 @@ SCROLL_UP
 WrongConstant
 CLOSED_EMPTY
 kotlin.collections.Iterator
+dev.flutter.pigeon.SharedPreferencesA...
 job
 TextInputClient.requestExistingInputS...
 setLocale
@@ -521,8 +528,8 @@ IS_FOCUSED
 PlatformViewsController
 ReceiveQueued
 systemStatusBarContrastEnforced
-kotlin.reflect.jvm.internal.Reflectio...
 getSuppressed
+kotlin.reflect.jvm.internal.Reflectio...
 PARKING
 FOLD
 DartMessenger
@@ -530,8 +537,8 @@ HIGH_CONTRAST
 ON_ANY
 MOVE_CURSOR_BACKWARD_BY_WORD
 removeViewImmediate
-kotlinx.coroutines.scheduler.resoluti...
 kotlin.Unit
+kotlinx.coroutines.scheduler.resoluti...
 removeView
 route
 ON_PAUSE
@@ -551,9 +558,10 @@ SystemSoundType.click
 background_mode
 popRoute
 NAMES_ROUTE
-defaultDisplay
 throwableMethods
+defaultDisplay
 completion
+dev.flutter.pigeon.SharedPreferencesA...
 clearFocus
 secondaryActivityIntent
 kUp
@@ -563,9 +571,11 @@ LOCALE
 InlinedApi
 personNamePrefix
 activityComponent.packageName
+VGhpcyBpcyB0aGUgcHJlZml4IGZvciBhIGxpc3Qu
 MEDIUM_IMPACT
 feature.rect
 missingDelimiterValue
+dev.flutter.pigeon.SharedPreferencesA...
 listener
 dev.flutter.pigeon.UrlLauncherApi.ope...
 BanParcelableUsage
@@ -610,6 +620,7 @@ kotlin.collections.Map
 ENQUEUE_FAILED
 cached_engine_group_id
 statusBarColor
+VGhpcyBpcyB0aGUgcHJlZml4IGZvciBCaWdJb...
 java.lang.Boolean
 contentCommitMimeTypes
 continuation
@@ -629,8 +640,8 @@ io.flutter.embedding.android.LeakVM
 pushRouteInformation
 resize
 TextEditingDelta
-DEFAULT
 TextInputAction.next
+DEFAULT
 setInitialRoute
 DROP_OLDEST
 splitInfoList
@@ -655,6 +666,7 @@ isolate_snapshot_data
 TextInput.finishAutofillContext
 SPELLOUT
 surface
+dev.flutter.pigeon.SharedPreferencesA...
 signed
 _bounds
 it
@@ -772,8 +784,8 @@ EMAIL_ADDRESS
 java.lang.Long
 metaState
 java.util.Map
-TextInputPlugin
 INTERNAL
+TextInputPlugin
 height
 CUT
 BOTTOM_OVERLAYS
@@ -791,12 +803,12 @@ kotlin.Function
 RTL
 long
 SystemUiMode.immersive
-kotlinx.coroutines.channels.defaultBu...
 HALF_OPENED
+kotlinx.coroutines.channels.defaultBu...
 activity.windowManager.currentWindowM...
 $this$$receiver
-key
 email
+key
 android.type.verbatim
 kotlin.Enum.Companion
 RESOURCE
@@ -1022,6 +1034,7 @@ com.google.android.inputmethod.latin
 emit
 AccessibilityBridge
 SCROLL_DOWN
+dev.flutter.pigeon.SharedPreferencesA...
 Marking id:accessibility_action_clickable_span:2131034112 used because it matches string pool constant acc
 Marking id:accessibility_custom_action_0:2131034113 used because it matches string pool constant acc
 Marking id:accessibility_custom_action_1:2131034114 used because it matches string pool constant acc

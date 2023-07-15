@@ -45,13 +45,12 @@ dependencies:
     git:
       url: https://github.com/nrubin29/social_media_buttons
       ref: null-safety
-
+  build_runner: ^2.3.3
+  json_serializable: ^6.6.0
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
-  build_runner: ^2.3.3
-  json_serializable: ^6.6.0
 
   # The "flutter_lints" package below contains a set of recommended lints to
   # encourage good coding practices. The lint set provided by the package is

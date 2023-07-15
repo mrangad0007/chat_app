@@ -23,6 +23,7 @@ ADDED from /Users/mac/Downloads/Flutter_projects/chat_app/android/app/src/main/A
 INJECTED from /Users/mac/Downloads/Flutter_projects/chat_app/android/app/src/main/AndroidManifest.xml:1:1-33:12
 INJECTED from /Users/mac/Downloads/Flutter_projects/chat_app/android/app/src/main/AndroidManifest.xml:1:1-33:12
 INJECTED from /Users/mac/Downloads/Flutter_projects/chat_app/android/app/src/main/AndroidManifest.xml:1:1-33:12
+MERGED from [:shared_preferences_android] /Users/mac/Downloads/Flutter_projects/chat_app/build/shared_preferences_android/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-9:12
 MERGED from [:url_launcher_android] /Users/mac/Downloads/Flutter_projects/chat_app/build/url_launcher_android/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-16:12
 MERGED from [:path_provider_android] /Users/mac/Downloads/Flutter_projects/chat_app/build/path_provider_android/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-9:12
 MERGED from [androidx.window:window-java:1.0.0-beta04] /Users/mac/.gradle/caches/transforms-3/ae81e06d24c799147c26814497a2a305/transformed/jetified-window-java-1.0.0-beta04/AndroidManifest.xml:17:1-23:12
@@ -63,6 +64,8 @@ uses-sdk
 INJECTED from /Users/mac/Downloads/Flutter_projects/chat_app/android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /Users/mac/Downloads/Flutter_projects/chat_app/android/app/src/main/AndroidManifest.xml
 INJECTED from /Users/mac/Downloads/Flutter_projects/chat_app/android/app/src/main/AndroidManifest.xml
+MERGED from [:shared_preferences_android] /Users/mac/Downloads/Flutter_projects/chat_app/build/shared_preferences_android/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:shared_preferences_android] /Users/mac/Downloads/Flutter_projects/chat_app/build/shared_preferences_android/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
 MERGED from [:url_launcher_android] /Users/mac/Downloads/Flutter_projects/chat_app/build/url_launcher_android/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
 MERGED from [:url_launcher_android] /Users/mac/Downloads/Flutter_projects/chat_app/build/url_launcher_android/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
 MERGED from [:path_provider_android] /Users/mac/Downloads/Flutter_projects/chat_app/build/path_provider_android/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
