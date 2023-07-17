@@ -1,4 +1,0 @@
-#Sat Jul 15 21:39:15 IST 2023
-base.0=/Users/mac/Downloads/Flutter_projects/chat_app/build/app/intermediates/dex/release/minifyReleaseWithR8/classes.dex
-path.0=classes.dex
-renamed.0=classes.dex

@@ -11,4 +11,5 @@ com.cdinv.chatapp-mergeReleaseResources-9 /Users/mac/Downloads/Flutter_projects/
 com.cdinv.chatapp-mergeReleaseResources-10 /Users/mac/Downloads/Flutter_projects/chat_app/build/app/intermediates/incremental/release/mergeReleaseResources/stripped.dir
 com.cdinv.chatapp-merged_res-11 /Users/mac/Downloads/Flutter_projects/chat_app/build/app/intermediates/merged_res/release
 com.cdinv.chatapp-packaged_res-12 /Users/mac/Downloads/Flutter_projects/chat_app/build/path_provider_android/intermediates/packaged_res/release
-com.cdinv.chatapp-packaged_res-13 /Users/mac/Downloads/Flutter_projects/chat_app/build/url_launcher_android/intermediates/packaged_res/release
+com.cdinv.chatapp-packaged_res-13 /Users/mac/Downloads/Flutter_projects/chat_app/build/shared_preferences_android/intermediates/packaged_res/release
+com.cdinv.chatapp-packaged_res-14 /Users/mac/Downloads/Flutter_projects/chat_app/build/url_launcher_android/intermediates/packaged_res/release

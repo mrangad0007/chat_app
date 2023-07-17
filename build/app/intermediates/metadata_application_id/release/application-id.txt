@@ -1,1 +1,1 @@
-com.cdinv.chatapp
+com.cdinv.chathub
